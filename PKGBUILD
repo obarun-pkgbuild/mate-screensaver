@@ -3,7 +3,7 @@
 # 						Contributor: Martin Wimpress <code@flexion.org>
 
 pkgname=mate-screensaver
-pkgver=1.18.2
+pkgver=1.20.0
 pkgrel=2
 pkgdesc='Screensaver for MATE'
 url="https://mate-desktop.org"
@@ -16,7 +16,7 @@ groups=('mate-extra')
 conflicts=('mate-screensaver-gtk3')
 replaces=('mate-screensaver-gtk3')
 source=("https://pub.mate-desktop.org/releases/${pkgver%.*}/${pkgname}-${pkgver}.tar.xz")
-sha256sums=('57f820c1b2898f65fc73b0d8003b372fe558620358a9bc12892501ceb53eea0f')
+sha256sums=('69927e32b49b9723ab26a9cc0005f84ff904103d9eb71e926dc44d5311302899')
 validpgpkeys=('6DD4217456569BA711566AC7F06E8FDE7B45DAAC') # Eric Vidal
 
 build() {
